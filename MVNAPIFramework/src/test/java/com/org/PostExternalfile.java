@@ -22,7 +22,7 @@ public class PostExternalfile{
 
     }
     @Test
-    public void ExternalJson() throws FileNotFoundException {
+    public void ExternalJsonInput() throws FileNotFoundException {
         File f1 = new File("C:\\Users\\DELL\\RestAssured Framework\\RestAssuredFramework\\MVNAPIFramework\\testdata\\body.json");
         FileReader fr= new FileReader(f1);
         JSONTokener jt= new JSONTokener(fr);

@@ -33,6 +33,7 @@ public class ParseResBody{
 
         for(int i=0;i<ja.length();i++) {
             System.out.println(ja.getJSONObject(i).get("title").toString());
+            System.out.println("Adding a new line");
 
         }
     }
