@@ -1,0 +1,33 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "location": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "course": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "location",
+      "phone",
+      "course"
+    ]
+  }
+}
